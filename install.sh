@@ -11,6 +11,7 @@ PACKAGES=(
   "requests"
   "aiofiles"
   "distro"
+  "websocket-client"
   "aiohttp"
   "asyncio"
   "faker"
