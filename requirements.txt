@@ -5,6 +5,7 @@ aiohttp
 faker
 colorama
 pyfiglet
+websocket-client
 pycryptodome
 psutil
 urllib3
@@ -12,3 +13,4 @@ python-socketio
 tqdm
 requests[socks]
 httpx[http2]
+
