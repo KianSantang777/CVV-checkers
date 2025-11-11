@@ -21,7 +21,7 @@ This checker uses the Stripe API with a live publishable key (pk_live). It verif
 - python -m pip install -r requirements.txt
 - pip install --upgrade pip
 - pip install pycryptodome python-socketio requests tqdm colorama
-- python cek.py
+- python cvv.py
 ```
 
 ### [+] Screenshot
