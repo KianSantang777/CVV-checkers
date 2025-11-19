@@ -6,7 +6,7 @@
 # ============================================================
 
 REQUIRED_PY_VERSION="3.12"
-MAIN_SCRIPT="cvv.py"
+MAIN_SCRIPT="auth.py"
 PACKAGES=(
   "requests"
   "aiofiles"
