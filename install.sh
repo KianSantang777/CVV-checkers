@@ -10,6 +10,8 @@ MAIN_SCRIPT="auth.py"
 
 PACKAGES=(
   "requests"
+  "termcolor"
+  "bs4"
   "aiofiles"
   "distro"
   "websocket-client"
