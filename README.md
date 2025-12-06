@@ -1,6 +1,6 @@
 <h2 align="center"><u>CVV-checkers</u></h2>
 
-![Stripe checker pre-auth](https://raw.githubusercontent.com/KianSantang777/CVV-checkers/refs/heads/main/sc1.png)
+![Stripe checker pre-auth](https://raw.githubusercontent.com/KianSantang777/CVV-checkers/refs/heads/main/sc2.png)
 <h4 align="center"> Stripe checker pre-auth </h4>
 
 <p align="center">
@@ -22,7 +22,7 @@ This checker uses the Stripe API with a live publishable key (pk_live). It verif
 ```
 
 ### [+] Screenshot
-![screenshot](https://raw.githubusercontent.com/KianSantang777/CVV-checkers/refs/heads/main/sc2.png)
+![screenshot](https://raw.githubusercontent.com/KianSantang777/CVV-checkers/refs/heads/main/sc1.png)
 
 ### [+] Features
  -  No proxy/proxyless
