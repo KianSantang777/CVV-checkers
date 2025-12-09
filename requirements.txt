@@ -1,19 +1,26 @@
+# ---- NETWORK / HTTP ----
 requests
-aiofiles
-distro
-aiohttp
-faker
-colorama
-pyfiglet
-websocket-client
-pycryptodome
-psutil
-urllib3
-python-socketio
-tqdm
 requests[socks]
+urllib3
 httpx[http2]
-asyncio
+aiohttp
+websocket-client
+python-socketio
 bs4
-cryptography
+
+# ---- ASYNC / UTIL ----
+aiofiles
+asyncio
+tqdm
+psutil
+distro
+
+# ---- UI / CLI ----
+colorama
 termcolor
+pyfiglet
+faker
+
+# ---- CRYPTO (TERMUX-SAFE) ----
+pycryptodome
+cryptography<42
