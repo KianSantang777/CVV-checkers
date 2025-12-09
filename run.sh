@@ -3,7 +3,6 @@
 # CVV-Checkers Universal Installer (Termux / Linux / Ubuntu)
 # Author: Kian Santang
 # GitHub: https://github.com/KianSantang777/CVV-Checkers
-# Maintained & Modernized by ChatGPT
 # ==========================================================
 
 set -e
