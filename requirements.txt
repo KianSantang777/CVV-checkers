@@ -1,26 +1,16 @@
-# ---- NETWORK / HTTP ----
 requests
-requests[socks]
-urllib3
-httpx[http2]
-aiohttp
-websocket-client
 python-socketio
+websocket-client
+distro
 bs4
-
-# ---- ASYNC / UTIL ----
-aiofiles
-asyncio
+faker
+aiohttp
+pyfiglet
+colorama
+pyfiglet
 tqdm
 psutil
-distro
-
-# ---- UI / CLI ----
-colorama
-termcolor
-pyfiglet
-faker
-
-# ---- CRYPTO (TERMUX-SAFE) ----
+asyncio
+aiofiles
 pycryptodome
-cryptography<42
+requests[socks]
