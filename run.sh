@@ -3,6 +3,7 @@
 # CVV-Checkers Universal Installer (Termux / Linux / Ubuntu)
 # Author: Kian Santang
 # GitHub: https://github.com/KianSantang777/CVV-Checkers
+# Maintained & Modernized by ChatGPT
 # ==========================================================
 
 set -e
@@ -15,7 +16,7 @@ spin() {
     local pid=$!
     local delay=0.1
     local spinstr='|/-\'
-    while [ "$(ps a | awk '{print $1}' | grep $pid)" ]; do
+    while ps -p $pid > /dev/null 2>&1; do
         local temp=${spinstr#?}
         printf " [%c]  " "$spinstr"
         local spinstr=$temp${spinstr%"$temp"}
@@ -133,7 +134,7 @@ print_step 6 "Installing Python dependencies..."
         $PYTHON_CMD -m pip install --upgrade pip
         $PYTHON_CMD -m pip install -r requirements.txt
     else
-        error_exit "requirements.txt not found in 'stuff/' directory!"
+        error_exit "requirements.txt not found in current directory!"
     fi
 ) & spin
 success "Python dependencies installed successfully."
