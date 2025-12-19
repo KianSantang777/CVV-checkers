@@ -1,6 +1,13 @@
 requests
 httpx
+astor
 python-socketio
+python-dateutil
+python-engineio
+python-dotenv
+python-socks
+aiohttp_socks
+pytz
 websocket-client
 distro
 bs4
@@ -15,4 +22,8 @@ asyncio
 aiofiles
 pycryptodome
 requests[socks]
-
+cloudscraper
+fake-useragent
+Faker
+getuseragent
+pycryptodome
