@@ -1,6 +1,7 @@
 requests
 httpx
 astor
+python-socketio[client]
 python-socketio
 python-dateutil
 python-engineio
@@ -27,3 +28,4 @@ fake-useragent
 Faker
 getuseragent
 pycryptodome
+
