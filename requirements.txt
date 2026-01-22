@@ -28,4 +28,4 @@ fake-useragent
 Faker
 getuseragent
 pycryptodome
-
+cryptography
