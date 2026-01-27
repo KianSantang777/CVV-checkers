@@ -22,7 +22,7 @@ This checker uses the Stripe API with a live publishable key (pk_live). It verif
 ```
 
 ### [+] Installation Windows
-- Download as zip | <a href="https://github.com/KianSantang777/CVV-checkers/archive/refs/heads/main.zip" target="_blank" rel="nofollow noreferrer external" download>Click here</a>
+- Download as exe | <a href="https://github.com/KianSantang777/CVV-checkers/releases/tag/1.0.2" target="_blank" rel="nofollow noreferrer external" download>Click here</a>
 - Extract the file folder and then enter the folder
 - Open the folder with powershell/CMD
 - Then type ``python -m pip install -r requirements.txt``
